@@ -1,0 +1,93 @@
+<!-- <h4>hello {{title}}</h4>
+<app-demo-component></app-demo-component>
+<button type="submit" [disabled]=hari>submit</button>
+<h2 [class]="hari?'hi':'hello'">Good</h2>
+<h3 [class]="{hi:true,hello:hari}" >good</h3>
+<h3 [class]="['hi','hello']">Good</h3>
+<h3 [class.hi]=hari>abc</h3>
+<p [style]="{color:col}">this is fine</p>
+<p [style.color]=col>good morning</p>
+<p [style]=mysty> ok</p>
+<p [style.color]="hari?'red':'green'">not ok</p>
+
+<button (click)=incresase()>click</button>
+<p>{{count}}</p>
+
+<input type="text" (input)="name($event)">
+<input type="text" on-input="name($event)">
+<p>name:{{na}}</p>
+
+<input type="text" [(ngModel)]=city> 
+<p>{{city}}</p>
+
+ <button type="submit" (click)=updateCity()>update</button> 
+ <p *ngIf=1>based on ngIf</p>
+ <table>
+    <tr *ngFor="let f of fruits;index as i">
+        <td>{{f}}:{{i+1}}</td>
+    </tr>
+ </table> -->
+ <!-- <p *ngIf="!fruits;then one;else two"></p>
+ <ng-template #one>
+    if ngIf is true executes then block
+ </ng-template>
+ <ng-template #two>
+    else this block executes
+ </ng-template> -->
+ <!-- switch case -->
+ <!-- <input type="text" [(ngModel)]="op">
+ <div [ngSwitch]="op">
+   <div *ngSwitchCase="'+'">{{num1+num2}}</div>
+   <div *ngSwitchDefault>hello</div>
+
+ </div>  -->
+<!-- pipes
+
+ {{city|uppercase}}
+ {{city|titlecase}}
+ {{city|lowercase}}
+ <br>
+ {{num1|currency:' INR':'code'}}
+ {{num1|currency:'INR':'symbol'}}
+ <br>
+ {{obj|json}}
+ <br>
+ {{d|date:'dd/MM/yyyy'}}
+ <br>
+ {{per|percent}}
+ {{slic|slice:1:5}} -->
+
+
+ <!-- <form #form=ngForm (ngSubmit)="abc(form)">
+   Username:<input type="text"  name="username" ngModel #username=ngModel required>
+   <br>
+   <span style="color: red;" *ngIf="username.touched && username.invalid">must enter Username</span>
+   <br>
+   Email:<input type="email"  name="email" ngModel #email=ngModel required>
+   <br>
+   <span style="color: red;" *ngIf="email.touched && email.invalid">must enter Mail</span>
+   <br>
+   Password:<input type="password"  name="Password" ngModel #Password=ngModel required>
+   <br>
+   <span style="color: red;" *ngIf="Password.touched && Password.invalid">must enter Password</span>
+   <br>
+   
+   
+
+   <button [disabled]="form.invalid">submit</button>
+   
+ </form> -->
+ <!-- communication between child and parent
+ {{parent}}
+
+ <app-demo-component [d]="parent"></app-demo-component>
+ <app-demo-component (a)="childDateToParent=$event"></app-demo-component>
+ {{childDateToParent}} 
+ {{childern.message}}
+ <app-demo-component #childern></app-demo-component>
+
+
+ <button (click)="test()">clickFromParent</button>
+ <br>
+ <p>{{das}}</p>
+ -->

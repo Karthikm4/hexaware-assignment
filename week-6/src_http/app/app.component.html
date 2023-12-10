@@ -1,0 +1,27 @@
+
+
+<ul>
+    
+  <li>
+      <a routerLink="/Menu">Menu</a>
+  </li>
+  <li>
+      <a routerLink="/Cart">Cart</a>
+  </li>
+  
+</ul>
+<router-outlet></router-outlet>
+<button (click)="getData()">click to get products</button>
+<div *ngIf="data">
+  <table>
+    <tr><th>Id</th>
+      <th>Name</th>
+      <th>Price</th></tr>
+    
+    <tr *ngFor="let product of data">
+      <td>{{product.id}}</td>
+      <td>{{product.title}}</td>
+      <td>{{product.price}}</td>
+    </tr>
+  </table>
+</div>

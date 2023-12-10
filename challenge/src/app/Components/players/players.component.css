@@ -1,0 +1,23 @@
+.pic{
+    background-image: url('https://cdn.leonardo.ai/users/7cbf12f8-087b-4cdf-8fd7-c5b22ada2a12/generations/6e579e60-f008-4573-88a1-2c3722f1b039/Leonardo_Vision_XL_There_are_places_in_my_soul_even_the_devil_0.jpg?w=512'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 300px;
+  }
+  table{
+    background-color: white;
+  }
+ 
+  form{
+    background-color: white;
+    border-radius: 25px;
+
+  }
+  h3{
+    color: white;
+    padding-top: 20px;
+  }
+
+
+

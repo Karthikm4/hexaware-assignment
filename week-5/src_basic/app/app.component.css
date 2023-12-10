@@ -1,0 +1,13 @@
+.hi{
+    color: aliceblur;
+    border-radius: 2px;
+    background-color: green;
+}
+.hello{
+    color: red;
+    background-color: black;
+}
+.custome{
+    color: yellow;
+    background-color: black;
+}

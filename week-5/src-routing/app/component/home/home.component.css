@@ -1,0 +1,34 @@
+/* Set background image */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make sure the body spans the entire viewport height */
+  background-image: url('../../../assets/home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Other styles if needed */
+}
+
+h2.text-center {
+  text-align: center;
+  color: white;
+  background-color: indigo;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #8000ff;
+  color: #333;
+}
+
+.button-link:hover {
+  background-color: #e0e0e0;
+}
